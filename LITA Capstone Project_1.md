@@ -6,6 +6,8 @@
 
 [SQL Data Exploration](#sql-data-exploration)
 
+## Exploratory Data Analysis With Excel
+
 ### Project Overview
 This report provides an analysis of sales data with a focus on:
 - Total sales by product and region.
@@ -49,3 +51,5 @@ To carry out my analysis, Using Microsoft Excel as my analysis tool, I performed
 - Consider targeting high-performing regions with additional marketing
 - Focus on inventory management for top-selling products to meet demand.
 - Regularly update customer data to maintain accurate subscription insights.
+
+## SQL Data Exploration 
