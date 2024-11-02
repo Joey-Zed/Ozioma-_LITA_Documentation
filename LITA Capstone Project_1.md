@@ -4,7 +4,7 @@
 ### Author: Ozioma
 ### Date: Tuesday, 5th November, 2024
 
-[SQL Data Exploration](SQL-Data-Exploration)
+[SQL Data Exploration](#SQL-Data-Exploration)
 
 ### Project Overview
 This report provides an analysis of sales data with a focus on:
