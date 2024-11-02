@@ -1,4 +1,4 @@
-# LITA Capstone Project
+# LITA Capstone Project 1
 
 ## Sales Data Analysis Report
 ### Author: Ozioma
