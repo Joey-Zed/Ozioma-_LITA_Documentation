@@ -43,13 +43,13 @@ To carry out my analysis, Using Microsoft Excel as my analysis tool, I performed
 ![Screenshot (236)](https://github.com/user-attachments/assets/d117297f-1fd8-4238-8d06-23f27fb6a3f9)
 
 ### Key Findings
-- Top-Performing Products: Identified using total sales per product and visualized in a bar chart.
-- Revenue by Region: Highlighted key revenue-generating regions.
-- Monthly Trends: Displayed with a line graph, showing monthly fluctuations in sales.
+- Top-Performing Products: Among the six products—Gloves, Hat, Jackets, Shirt, Shoes, and Socks—Shoes emerged as the top-selling item, with total sales amounting to 3,087,500.
+- Revenue by Region: Revenue analysis across four regions—East, North, South, and West—revealed that the South region generated the most revenue, totaling 4,675,000. 
+- Monthly Trends: Displayed with a line graph, showing monthly fluctuations in sales; Sales trends across months showed that in 2023, February had the highest sales, with July as a close second. In 2024, February again led with the highest sales, followed closely by January
 
 ### Recommendations
-- Consider targeting high-performing regions with additional marketing
-- Focus on inventory management for top-selling products to meet demand.
+- Consider targeting the south regions with additional marketing to increase sales,
+- Focus on inventory management for shoes to meet growing demand, and
 - Regularly update customer data to maintain accurate subscription insights.
 
 ## SQL Data Exploration 
