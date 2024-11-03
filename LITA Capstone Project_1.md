@@ -34,7 +34,7 @@ By the end of this Analysis, I hope to:
 ### Methodology
 To carry out my analysis, Using Microsoft Excel as my analysis tool, I performed the following tasks:
 - Data Cleaning: Verified no blank cells, and formatted the columns.
-  ![Screenshot (228)](https://github.com/user-attachments/assets/5677f19b-1e04-464e-be2a-0ce288cba6d5)
+  ![Screenshot (239)](https://github.com/user-attachments/assets/5eb6fcb8-577b-4bf1-b49d-99afda4de45b)
 - Data Aggregation: Created calculated columns (Total Sales = Quantity * UnitPrice) and used pivot tables.
   ![Screenshot (229)](https://github.com/user-attachments/assets/f2acaafa-7caf-4188-ace6-ce95d3cddd5b)
   ![Screenshot (237)](https://github.com/user-attachments/assets/7c5ccd81-7fb6-4d04-a50c-230f3e5091f7)
