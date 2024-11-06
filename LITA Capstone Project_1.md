@@ -53,3 +53,5 @@ To carry out my analysis, Using Microsoft Excel as my analysis tool, I performed
 - Regularly update customer data to maintain accurate subscription insights.
 
 ## SQL Data Exploration 
+
+### IN PROGRESS NATIONAL GRID HAS AFFECTED GREATLY 
