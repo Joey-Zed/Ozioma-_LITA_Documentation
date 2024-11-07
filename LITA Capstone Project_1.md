@@ -130,14 +130,14 @@ Calculate the percentage of total sales contributed by each region.
 
 ![Screenshot (249)~2](https://github.com/user-attachments/assets/6dfa68b0-feec-4734-bd17-de95fd411f93)
 
-Reveals which regions contribute the most to overall sales.
+Reveals which regions contribute the most to overall sales, Here we can see that the south generates the most revenue, by contributing to 44% of the total revenue.
 
 ### Products with No Sales in the Last Quarter
 Identify products with no sales in the most recent quarter.
 
 ![Screenshot (250)~2](https://github.com/user-attachments/assets/0c7678ba-8c2f-4bcd-b341-9bd34eb9fa2b)
 
-Highlights products with declining or no sales, useful for inventory decisions.
+Highlights products with Sales in the last quarter of July and August as Shoe, Hat, and Shirts, Revealing that Jackets, Socks, and Gloves had no sales, which is useful for inventory decisions.
 
 Conclusion
 This analysis provides a high-level view of sales patterns, top products, key customers, and regional contributions. These insights can guide decisions around marketing, inventory, and regional focus.
