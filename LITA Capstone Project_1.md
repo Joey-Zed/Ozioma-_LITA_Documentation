@@ -6,6 +6,7 @@
 
 ## OUTLINE
 [Exploratory Data Analysis With Excel](#Exploratory-Data-Analysis-With-Excel)
+
 [SQL Data Exploration](#sql-data-exploration)
 
 ## CONTENT
