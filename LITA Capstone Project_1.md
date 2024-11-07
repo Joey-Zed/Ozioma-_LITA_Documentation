@@ -53,5 +53,67 @@ To carry out my analysis, Using Microsoft Excel as my analysis tool, I performed
 - Regularly update customer data to maintain accurate subscription insights.
 
 ## SQL Data Exploration 
+### Overview 
+This report presents a SQL-based analysis of sales and customer data. It includes setup steps for data import, followed by queries that extract meaningful insights. Each section shows a description of the query’s purpose, letting the images tell the story.
+
+
+
+### Data Import
+Objective: Import Excel data into SQL Server for analysis.
+Using the SQL Server Import and Export Wizard, I initially intended to import the data as an Excel file, I ran into an error related to the 'Microsoft.ACE.OLEDB.12.0' and resolved the error by converting files to CSV format, then successfully imported them.
+
+### Setting Up the Database
+Structured the SalesData and CustomerData tables, ensuring columns like OrderID, CustomerID, and Revenue were set up correctly.
+Verified data integrity with checks for empty cells and unique identifiers.
+
+Analysis and Queries
+
+### Total Sales per Product Category
+Objective: Retrieve the total sales amount for each product category.
+
+Description: This query sums up the sales for each category, helping to identify which products are generating the most revenue.
+
+### Sales Transactions by Region
+Objective: Find the number of sales transactions in each region.
+
+Description: Displays the count of transactions, providing insight into which regions are most active.
+
+### Highest-Selling Product by Sales Value
+Objective: Identify the product with the highest total sales value.
+
+Description: By calculating total sales value, this query pinpoints the top-performing product.
+
+### Total Revenue by Product
+Objective: Calculate total revenue for each product.
+
+Description: Shows the revenue contribution of each product individually.
+
+### Monthly Sales Totals for the Current Year
+Objective: Summarize total sales for each month in the current year.
+
+Description: Tracks monthly sales trends, allowing us to identify seasonal patterns.
+
+### Top 5 Customers by Purchase Amount
+Objective: Determine the top 5 customers based on total purchases.
+
+Description: Highlights the customers with the highest purchases, useful for loyalty and targeted marketing.
+
+### Regional Sales Contribution Percentage
+Objective: Calculate the percentage of total sales contributed by each region.
+
+Description: Reveals which regions contribute the most to overall sales.
+### Products with No Sales in the Last Quarter
+Objective: Identify products with no sales in the most recent quarter.
+Description: Highlights products with declining or no sales, useful for inventory decisions.
+Conclusion
+This analysis provides a high-level view of sales patterns, top products, key customers, and regional contributions. These insights can guide decisions around marketing, inventory, and regional focus.
+
+Let me know if you'd like to add or adjust any descriptions! This layout keeps it straightforward, with the images and brief descriptions leading the way.
+
+
+
+
+
+
 
 ### IN PROGRESS NATIONAL GRID HAS AFFECTED GREATLY 
