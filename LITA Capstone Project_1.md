@@ -4,9 +4,11 @@
 ### Author: Ozioma
 ### Date: Tuesday, 5th November, 2024
 
-## Outline
+## OUTLINE
+[Exploratory Data Analysis With Excel](#Exploratory-Data-Analysis-With-Excel)
 [SQL Data Exploration](#sql-data-exploration)
 
+## CONTENT
 ## Exploratory Data Analysis With Excel
 
 ### Project Overview
@@ -54,79 +56,87 @@ To carry out my analysis, Using Microsoft Excel as my analysis tool, I performed
 - Regularly update customer data to maintain accurate subscription insights.
 
 ## SQL Data Exploration 
+
 ### Overview 
-This report presents a SQL-based analysis of sales and customer data. It includes setup steps for data import, followed by queries that extract meaningful insights. Each section shows a description of the query’s purpose, letting the images tell the story.
+Exploring the data further, I will be using SQL to analyze my sales data. I would first of all Import the sales data into sql, followed by queries that extract meaningful insights. Each section shows a description of the query’s purpose, letting the images tell the story.
 
 ![Screenshot (240)~2](https://github.com/user-attachments/assets/50e0e68b-987e-4439-87ee-ef8e19a5748b)
+
+
 
 ### Data Import
 Objective: Import Excel data into SQL Server for analysis.
 Using the SQL Server Import and Export Wizard, I initially intended to import the data as an Excel file, I ran into an error related to the 'Microsoft.ACE.OLEDB.12.0' and resolved the error by converting files to CSV format, then successfully imported them.
 
+
+
 ![Screenshot (241)~2](https://github.com/user-attachments/assets/9e1252a5-ab93-4e3e-b0a5-97a74e23af31)
+
 
 
 ### Setting Up the Database
 Structured the SalesData and CustomerData tables, ensuring columns like OrderID, CustomerID, and Revenue were set up correctly.
 Verified data integrity with checks for empty cells and unique identifiers.
 
-Analysis and Queries
+
+## Analysis and Queries
 
 ### Total Sales per Product Category
-Objective: Retrieve the total sales amount for each product category.
+Retrieve the total sales amount for each product category.
+
 
 ![Screenshot (245)~2](https://github.com/user-attachments/assets/bb861492-1cf0-44c8-b10f-27a34701fa41)
 
-Description: This query sums up the sales for each category, helping identify which products generate the most revenue.
+This query sums up the sales for each category, helping identify which products generate the most revenue.
 
 ### Sales Transactions by Region
-Objective: Find the number of sales transactions in each region.
+Find the number of sales transactions in each region.
 
 ![Screenshot (243)~2](https://github.com/user-attachments/assets/bc637c65-5b1a-4f63-a49b-f03cfd32faa5)
 
-Description: Displays the transaction count, providing insight into which regions are most active.
+Here we can see the transaction count, providing insight into which regions are most active.
 
 ### Highest-Selling Product by Sales Value
-Objective: Identify the product with the highest total sales value.
+Identify the product with the highest total sales value.
 
 ![Screenshot (244)~2](https://github.com/user-attachments/assets/2c5e8b6d-775c-4f93-bbfe-ae061616a136)
 
-Description: This query pinpoints the top-performing product by calculating the total sales value.
+This query pinpoints the top-performing product by calculating the total sales value.
 
 ### Total Revenue by Product
-Objective: Calculate the total revenue for each product.
+Calculate the total revenue for each product.
 
 ![Screenshot (246)~2](https://github.com/user-attachments/assets/6543ea11-846b-4049-868c-3c4f87f4aefd)
 
-Description: Shows the revenue contribution of each product individually.
+Shows the revenue contribution of each product individually.
 
 ### Monthly Sales Totals for the Current Year
-Objective: Summarize total sales for each month in the current year.
+Summarize total sales for each month in the current year.
 
 ![Screenshot (247)~2](https://github.com/user-attachments/assets/fa8fc839-b441-42f8-9528-8772bccc148f)
 
-Description: Tracks monthly sales trends, allowing us to identify seasonal patterns.
+Tracking monthly sales trends, allowing us to identify seasonal patterns.
 
 ### Top 5 Customers by Purchase Amount
-Objective: Determine the top 5 customers based on total purchases.
+Determine the top 5 customers based on total purchases.
 
 ![Screenshot (248)~2](https://github.com/user-attachments/assets/d5a1ef12-cd10-43f5-9f77-f951dc831f29)
 
-Description: Highlights the customers with the highest purchases, useful for loyalty and targeted marketing.
+Highlighting the customers with the highest purchases is useful for loyalty and targeted marketing.
 
 ### Regional Sales Contribution Percentage
-Objective: Calculate the percentage of total sales contributed by each region.
+Calculate the percentage of total sales contributed by each region.
 
 ![Screenshot (249)~2](https://github.com/user-attachments/assets/6dfa68b0-feec-4734-bd17-de95fd411f93)
 
-Description: Reveals which regions contribute the most to overall sales.
+Reveals which regions contribute the most to overall sales.
 
 ### Products with No Sales in the Last Quarter
-Objective: Identify products with no sales in the most recent quarter.
+Identify products with no sales in the most recent quarter.
 
 ![Screenshot (250)~2](https://github.com/user-attachments/assets/0c7678ba-8c2f-4bcd-b341-9bd34eb9fa2b)
 
-Description: Highlights products with declining or no sales, useful for inventory decisions.
+Highlights products with declining or no sales, useful for inventory decisions.
 
 Conclusion
 This analysis provides a high-level view of sales patterns, top products, key customers, and regional contributions. These insights can guide decisions around marketing, inventory, and regional focus.
