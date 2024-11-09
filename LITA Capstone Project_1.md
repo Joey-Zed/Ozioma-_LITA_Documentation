@@ -215,9 +215,3 @@ Top Revenue-Generating Region: The South region contributed the highest revenue 
 Monthly Sales Trends:
 2023: February had the highest sales, with July as a close second.
 2024: February and January were the top months.
-
-### Conclusion
-Using the three data analysis tools, I was able to analyze, Query and Display insights from my Sales data, Demonstrating the reliability and usefulness of this tools in Data Analysis.
-
-
-### IN PROGRESS NATIONAL GRID HAS AFFECTED GREATLY 
