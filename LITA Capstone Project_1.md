@@ -9,6 +9,10 @@
 
 [SQL Data Exploration](#sql-data-exploration)
 
+[ Power BI Report](#power-bi-report)
+
+
+
 ## CONTENT
 ## Exploratory Data Analysis With Excel
 
@@ -144,8 +148,69 @@ This analysis provides a high-level view of sales patterns, top products, key cu
 
 
 
+## Power BI Report
+### Project Overview
+Using Microsoft Power BI, I will now analyze the sales data to identify top-performing products, regional performance, and monthly trends for a retail store.
+
+### Data Source
+Sales data imported into Power BI, with previous data exploration performed in Excel and SQL.
+
+### Data Preparation
+Loaded Datasets: Connected Power BI to two datasets:
+Sales Data: Includes columns like OrderID, CustomerID, Product, Region, OrderDate, Quantity, and UnitPrice.
 
 
+
+### Data Transformations
+Created a calculated column for Total Sales by multiplying Quantity and UnitPrice.
+Added a Year column using DAX (Year = YEAR(SalesData[OrderDate])) to simplify yearly filtering.
+
+
+
+### Dashboard Design
+
+#### Sales Overview:
+
+Total Sales: Displayed as a KPI card showing total sales across all time periods.
+
+Sales Trend by Month: Line chart to visualize monthly sales fluctuations, filtered by year.
+
+
+
+
+#### Top-Performing Products:
+
+Top Products by Sales: Bar chart showing sales for each product, with Shoes as the highest performer.
+
+Product Contribution to Total Sales: Donut chart showing percentage contribution of each product category.
+
+
+
+
+#### Regional Breakdown:
+
+Sales by Region: Bar chart showing sales per region, with South as the top revenue-generating region.
+
+Revenue by Region: Pie chart displaying each region’s percentage contribution.
+Customer Insights:
+
+
+
+
+### Interactive Features
+Year Slicer: Slicer for Year with options for 2023 and 2024, allowing users to filter and compare sales trends across years.
+Product and Region Filters: Filters added to allow selection of specific products or regions for detailed analysis.
+
+
+### Key Insights
+Top-Performing Product: Shoes generated the highest sales, totaling $3,087,500.
+Top Revenue-Generating Region: The South region contributed the highest revenue of $4,675,000.
+Monthly Sales Trends:
+2023: February had the highest sales, with July as a close second.
+2024: February and January were the top months.
+
+### Conclusion
+Using the three data analysis tools, I was able to analyze, Query and Display insights from my Sales data, Demonstrating the reliability and usefulness of this tools in Data Analysis.
 
 
 ### IN PROGRESS NATIONAL GRID HAS AFFECTED GREATLY 
