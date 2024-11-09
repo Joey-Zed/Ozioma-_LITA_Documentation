@@ -153,48 +153,55 @@ This analysis provides a high-level view of sales patterns, top products, key cu
 Using Microsoft Power BI, I will now analyze the sales data to identify top-performing products, regional performance, and monthly trends for a retail store.
 
 ### Data Source
-Sales data imported into Power BI, with previous data exploration performed in Excel and SQL.
+Sales data was imported into Power BI, with previous data exploration performed in Excel and SQL.
 
 ### Data Preparation
 Loaded Datasets: Connected Power BI to two datasets:
 Sales Data: Includes columns like OrderID, CustomerID, Product, Region, OrderDate, Quantity, and UnitPrice.
 
+![Screenshot (253)](https://github.com/user-attachments/assets/87a312aa-022a-4df5-b089-5679b213f707)
 
 
 ### Data Transformations
 Created a calculated column for Total Sales by multiplying Quantity and UnitPrice.
 Added a Year column using DAX (Year = YEAR(SalesData[OrderDate])) to simplify yearly filtering.
 
+![Screenshot (256)](https://github.com/user-attachments/assets/6ffdba9e-b4c3-47b2-b524-7441d740bfc9)
 
 
 ### Dashboard Design
 
 #### Sales Overview:
 
-Total Sales: Displayed as a KPI card showing total sales across all time periods.
+Total Sales: Displayed as a KPI card showing total sales across all periods.
 
 Sales Trend by Month: Line chart to visualize monthly sales fluctuations, filtered by year.
 
+![Screenshot (266)](https://github.com/user-attachments/assets/3a50166c-388a-4077-8669-e09312e110f0)
 
+
+![Screenshot (267)](https://github.com/user-attachments/assets/c09cf31a-3c63-4863-9603-ec99daadcc00)
+
+
+![Screenshot (268)](https://github.com/user-attachments/assets/23402886-d863-4c92-8658-caa32a2abab9)
 
 
 #### Top-Performing Products:
 
 Top Products by Sales: Bar chart showing sales for each product, with Shoes as the highest performer.
 
-Product Contribution to Total Sales: Donut chart showing percentage contribution of each product category.
+Product Contribution to Total Sales: The donut chart shows the percentage of contribution to each product category.
 
-
+![Screenshot (263)](https://github.com/user-attachments/assets/24c1640c-2f0b-4e7e-9d1f-dac39253a51c)
 
 
 #### Regional Breakdown:
 
-Sales by Region: Bar chart showing sales per region, with South as the top revenue-generating region.
+Sales by Region: The bar chart shows sales per region, with South as the top revenue-generating region.
 
 Revenue by Region: Pie chart displaying each region’s percentage contribution.
-Customer Insights:
 
-
+![Screenshot (262)](https://github.com/user-attachments/assets/66c74bb6-1285-4a3f-8f38-4f0d3d460f2e)
 
 
 ### Interactive Features
