@@ -78,3 +78,59 @@ Basic Subscription Dominance: Basic subscriptions lead in customer count and act
 Balanced Revenue Distribution: Revenue across regions shows only slight variations, suggesting that growth strategies should target all regions equally rather than focusing on specific ones.
 
 Regional Preferences: Subscription preferences vary by region, with the South favoring Premium and the West opting for Standard, which may guide targeted marketing efforts.
+
+## SQL DATA EXPLORATION 
+Using sql for data exploration,I ran queties on my customer data to acquire key insights into customer subscription patterns, cancellations, and revenue generation.
+
+### Data Exploration 
+
+#### Total Number of Customers by RegionResult:
+
+
+Result: Each region has an equal number of customers.
+
+#### Most Popular Subscription TypeResult:
+
+
+Result: Basic subscription type has the most customers.
+
+#### Query: Customers Who Canceled Their Subscription Within 6 Months
+
+
+Result:No customer canceled their subscription within 6 months. 
+
+#### Average Subscription Duration 
+
+
+Result:The average subscription duration is 365 days.
+
+#### Customers with Subscriptions Longer Than 12 Months
+
+
+Result: No customer has a subscription longer than 12 months.
+
+#### Total Revenue by Subscription Type 
+
+
+Result:Basic subscriptions generate the most revenue due to the highest number of customers.
+
+#### Top 3 Regions by Subscription Cancellations
+
+
+Result: North, South, and West have equal numbers of canceled subscriptions, while East has none.
+
+#### Total Active and Canceled Subscriptions 
+
+
+Result: There are more active subscriptions than canceled subscriptions.
+
+### Summary
+This analysis shows:
+Customer Distribution: Equal number of customers across regions.
+
+Subscription Preferences: Basic subscription is the most popular and highest revenue-generating type.
+
+Subscription Duration: Average subscription lasts 365 days, with no subscriptions less than 6 months or longer than 12 months.
+
+Cancellations: North, South, and West have the same cancellation rates, while East has none.
+
