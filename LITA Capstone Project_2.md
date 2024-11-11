@@ -6,6 +6,14 @@
 ### Overview
 This report analyzes customer subscription data across different regions, subscription types, statuses, and revenue contributions. The goal is to understand key trends and insights that could guide strategic decisions for customer engagement, retention, and revenue optimization.
 
+### Outline 
+
+[Microsoft Excel Data analysis]( Microsoft-Excel-Data-analysis)
+
+[SQL DATA EXPLORATION](SQL-DATA-EXPLORATION)
+
+[POWER BI DATA VISUALIZATION](POWER-BI-DATA-VISUALIZATION)
+ 
 ### Data Summary
 The dataset consists of 75,001 rows of customer data with columns for:
 
@@ -80,47 +88,57 @@ Balanced Revenue Distribution: Revenue across regions shows only slight variatio
 Regional Preferences: Subscription preferences vary by region, with the South favoring Premium and the West opting for Standard, which may guide targeted marketing efforts.
 
 ## SQL DATA EXPLORATION 
-Using sql for data exploration,I ran queties on my customer data to acquire key insights into customer subscription patterns, cancellations, and revenue generation.
+Using SQL for data exploration, I ran queries on my customer data to acquire key insights into customer subscription patterns, cancellations, and revenue generation.
+![Screenshot (275)](https://github.com/user-attachments/assets/4b007441-e31c-488f-a809-168e2a0ae078)
+
 
 ### Data Exploration 
 
 #### Total Number of Customers by RegionResult:
+![Screenshot (277)](https://github.com/user-attachments/assets/a8eef3ed-8ac6-4d73-8df4-69472d3e6f94)
 
 
 Result: Each region has an equal number of customers.
 
 #### Most Popular Subscription TypeResult:
+![Screenshot (278)](https://github.com/user-attachments/assets/a63189c6-7345-4788-9068-8fc47d54fa93)
 
 
-Result: Basic subscription type has the most customers.
+Result: The basic subscription type has the most customers.
 
 #### Query: Customers Who Canceled Their Subscription Within 6 Months
 
+![Screenshot (279)](https://github.com/user-attachments/assets/964ddcce-5b36-455b-a655-a990d070c36e)
 
-Result:No customer canceled their subscription within 6 months. 
+Result: No customer canceled their subscription within 6 months. 
 
 #### Average Subscription Duration 
 
+![Screenshot (280)](https://github.com/user-attachments/assets/da4e2fc1-d8df-445e-b0a4-9bf544c8e30f)
 
-Result:The average subscription duration is 365 days.
+Result: The average subscription duration is 365 days.
 
 #### Customers with Subscriptions Longer Than 12 Months
 
+![Screenshot (281)](https://github.com/user-attachments/assets/142a94bf-8455-40e5-abfc-d9dbee653717)
 
 Result: No customer has a subscription longer than 12 months.
 
 #### Total Revenue by Subscription Type 
 
+![Screenshot (282)](https://github.com/user-attachments/assets/0432baf9-da9b-49e4-a1d8-10673f9c4613)
 
-Result:Basic subscriptions generate the most revenue due to the highest number of customers.
+Result: Basic subscriptions generate the most revenue due to the highest number of customers.
 
 #### Top 3 Regions by Subscription Cancellations
 
+![Screenshot (284)](https://github.com/user-attachments/assets/22860f23-d729-4393-8486-c4590d2033e5)
 
 Result: North, South, and West have equal numbers of canceled subscriptions, while East has none.
 
 #### Total Active and Canceled Subscriptions 
 
+![Screenshot (285)](https://github.com/user-attachments/assets/385822ba-36a2-4678-8317-28f6ec4659c3)
 
 Result: There are more active subscriptions than canceled subscriptions.
 
@@ -130,7 +148,8 @@ Customer Distribution: Equal number of customers across regions.
 
 Subscription Preferences: Basic subscription is the most popular and highest revenue-generating type.
 
-Subscription Duration: Average subscription lasts 365 days, with no subscriptions less than 6 months or longer than 12 months.
+Subscription Duration: The average subscription lasts 365 days, with no subscriptions less than 6 months or longer than 12 months.
 
 Cancellations: North, South, and West have the same cancellation rates, while East has none.
 
+## POWER BI DATA VISUALIZATION
