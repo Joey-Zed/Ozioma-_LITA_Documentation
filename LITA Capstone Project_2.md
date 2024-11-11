@@ -21,11 +21,14 @@ Customer name: The name of the customer
 
 Subscription start date: The beginning of a purchase subscription 
 
-Subscription Emd date : The expiry date of a subscription 
+Subscription Emd date: The expiry date of a subscription 
+
+![Screenshot (273)](https://github.com/user-attachments/assets/ec89bcde-143a-4577-860b-9c3067474c11)
+
 
 ## Microsoft Excel Data analysis
 
-Using Microsoft Excel, I ensured the data was properly validated , checking for data types and null values. After which to carry out my analysis, i created pivot tables that summarised the data, enabling me to acquire insights on my customer data. This insights were then visualised to communicating the insights with charts.
+Using Microsoft Excel, I ensured the data was properly validated, checking for data types and null values. Then, to carry out my analysis, I created pivot tables that summarised the data, enabling me to acquire insights into my customer data. These insights were then visualized to communicate the insights with charts.
 
 ### Data Analysis and Visualizations
 
@@ -63,8 +66,14 @@ A zero-based bar chart and pie chart reveal that revenue contributions are relat
 #### Visualization:
 A pivot table summarizing revenue by region, supported by both pie and bar charts to emphasize the equal distribution.
 
+![Screenshot (270)](https://github.com/user-attachments/assets/c49641f7-9491-4375-92a3-1f5257dbc0fc)
+
+
+![Screenshot (272)](https://github.com/user-attachments/assets/311c3cc0-0a37-47a6-b7ab-255430c966f8)
+
+
 ### Key Insights
-Basic Subscription Dominance: Basic subscriptions lead in both customer count and active status, making it a key focus area for retention and engagement.
+Basic Subscription Dominance: Basic subscriptions lead in customer count and active status, making it a key focus area for retention and engagement.
 
 Balanced Revenue Distribution: Revenue across regions shows only slight variations, suggesting that growth strategies should target all regions equally rather than focusing on specific ones.
 
