@@ -8,11 +8,11 @@ This report analyzes customer subscription data across different regions, subscr
 
 ### Outline 
 
-[Microsoft Excel Data analysis]( Microsoft-Excel-Data-analysis)
+[Microsoft Excel Data analysis](microsoft-excel-data-analysis)
 
-[SQL DATA EXPLORATION](SQL-DATA-EXPLORATION)
+[SQL DATA EXPLORATION](sql-data-exploration)
 
-[POWER BI DATA VISUALIZATION](POWER-BI-DATA-VISUALIZATION)
+[POWER BI DATA VISUALIZATION](power-bi-data-visualization)
  
 ### Data Summary
 The dataset consists of 75,001 rows of customer data with columns for:
